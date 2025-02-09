@@ -29,6 +29,7 @@ def test_minkowski_distance():
         minkowski_distance(a, a) == 0.0
     ), "Minkowski distance for identical points is incorrect."
 
+print(test_minkowski_distance())
 
 # Test kNN Class
 @pytest.fixture
